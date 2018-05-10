@@ -1,0 +1,33 @@
+
+.review-section__button-block {
+  text-align: center;
+}
+
+.review-section__buttons-wrapper {
+  display: inline-block;
+}
+
+.review-section__balloon {
+  color: #00B0F0;
+  font-size: 18px;
+  border-radius: 50% 50%;
+  background-color: grey;
+  padding: 70px 30px;
+  display: inline-block;
+}
+
+.review-section__balloon:hover, .review-section__balloon:focus, .review-section__balloon:active {
+  background-color: #2F5597;
+  color: #00B0F0;
+}
+
+.review-section__balloon span {
+  color: #CC00CC;
+}
+
+.review-section__quotes-block p {
+  text-align: center;
+  color: #2F5597;
+  font-size: 16px;
+  font-style: italic;
+}

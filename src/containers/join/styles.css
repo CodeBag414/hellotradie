@@ -1,0 +1,69 @@
+.page.page--join .page-title {
+  color: #c0c;
+  margin: 15px 0;
+}
+
+.page.page--join .sub-header {
+  font-size: 17px;
+  color: #4aaddc;
+  margin: 25px 0;
+}
+
+.page.page--join .tab-header {
+  background-color: #4472c4;
+  margin: 25px 0;
+}
+
+.ui.basic.button:hover, .ui.basic.buttons .button:hover {
+  background-color: #4472c4 !important;
+  border-color: #4472c4 !important;
+  color: #fff !important;
+}
+.ui.button.toggle.active, .ui.buttons .button.toggle.active {
+  background-color: #4472c4 !important;
+  border-color: #4472c4 !important;
+}
+
+.page.page--join .pan {
+  color: #526fc9;
+}
+
+.page.page--join .pan .first-line,
+.page.page--join .pan .third-line {
+  text-align: center;
+}
+
+.page.page--join .pan .second-line {
+  max-width: 350px;
+  margin: auto;
+}
+
+.page.page--join .pan .second-line button:first-child {
+  float: left;
+}
+.page.page--join .pan .second-line button:first-child {
+  float: right;
+}
+
+.page.page--join .pan .index-button {
+  border: 1px solid transparent;
+  background-color: #dae3f3;
+  color: #00b0f0;
+  border-radius: 50%;
+  width: 130px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.page.page--join .pan .index-button:hover {
+  background-color: #2f5597;
+}
+.page.page--join .pan h6 {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.page.page--join .join-form {
+  position: sticky;
+  top: 0;
+}
