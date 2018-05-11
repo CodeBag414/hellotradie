@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import { Connect } from '../../../utils';
 import { Container, Form, Grid } from 'semantic-ui-react';
 import { isEmpty } from 'lodash';
@@ -20,12 +20,12 @@ class ReviewSection extends React.Component {
         <Container>
           <div className="review-section__button-block m-b-2">            
             <div className="review-section__buttons-wrapper">
-              <a className="review-section__balloon m-l-1 m-r-1" href="/join">
+              <Link className="review-section__balloon m-l-1 m-r-1" to="/join">
                 I'm a <span>tradie</span>.<br />I think I need to join
-              </a>
-              <a className="review-section__balloon m-l-1 m-r-1" href="/description">
+              </Link>
+              <Link className="review-section__balloon m-l-1 m-r-1" to="/description">
                 I'm a <span>customer</span>.<br /> Why use HelloTradie?
-              </a>
+              </Link>
             </div>
           </div>
           <div className="review-section__quotes-block">
